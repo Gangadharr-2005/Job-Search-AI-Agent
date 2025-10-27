@@ -16,5 +16,5 @@ An intelligent assistant that helps job seekers find jobs, analyze resumes, and 
 - SQLite / Firebase
 
 ## 👥 Team
-- Mahadeva [Your College Name]
-- [Add other team members if any]
+- Team Name : QuadCore,college:RVITM
+- Team Members : Gangadhar R, HM Akshay,Gururaj,Mallikarjunayya
