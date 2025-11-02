@@ -3,18 +3,44 @@
 ## 🎯 Project Overview
 An intelligent assistant that helps job seekers find jobs, analyze resumes, and generate personalized cover letters using AI.
 
-## 🧠 Objectives
-- Automate job searching and skill matching
-- Generate resume improvements
-- Create cover letter drafts using LLMs
-- Simplify job applications
+🧠 Objectives
+Simplify the job search process through automation.
+Match user skills with real-world job openings using AI.
+Generate personalized resumes and cover letters.
+Provide career insights and interview preparation assistance.
 
-## 🛠 Tech Stack
-- Python (Flask / FastAPI)
-- HTML / CSS / React (Frontend)
-- OpenAI / Hugging Face API
-- SQLite / Firebase
+🛠 Tech Stack
+Frontend: HTML, CSS, React.js
+Backend: Python (Flask / FastAPI)
+AI: OpenAI API / LangChain
+Database: SQLite / MongoDB
+Version Control: Git & GitHub
+
+
+Week 1 Plan
+Finalize problem statement and objectives
+Design project architecture and workflow
+Set up GitHub repository and local Git
+Research APIs for job listings and resume parsing
+Prepare UI wireframe and chatbot layout
+Test one LLM prompt for resume enhancement
+
+Week 1 Progress
+✅ Repository created and Git setup completed
+✅ Architecture flow designed
+✅ Research on resume parsing and job APIs done
+✅ Added project documentation and initial plan
 
 ## 👥 Team
-- Mahadeva [Your College Name]
-- [Add other team members if any]
+- team name : QuadCore
+   Team Members
+   Gangadhar R
+   HM Akshay
+   Mallikarjunayya
+   Gururaj
+## Week 2 Plan (Preview)
+- Build the chatbot interface  
+- Implement resume upload and parsing  
+- Integrate job recommendation engine  
+- Test AI responses using OpenAI API  
+- Update documentation and GitHub repo
