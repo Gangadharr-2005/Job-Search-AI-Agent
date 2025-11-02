@@ -37,3 +37,29 @@ if st.button("Search Jobs"):
                 st.warning("No jobs found. Try a different search.")
         except Exception as e:
             st.error(f"An error occurred: {e}")
+
+# --- Ask AI Section ---
+st.markdown("## 🤖 Ask AI Career Assistant")
+st.write("You can ask for career guidance, resume tips, or interview advice.")
+
+user_question = st.text_input("💬 Ask your question:", placeholder="e.g., How can I improve my resume for a data analyst role?")
+
+if st.button("Ask AI"):
+    if not user_question:
+        st.warning("Please enter a question for the AI assistant.")
+    else:
+        try:
+            # Backend Flask server endpoint
+            response = requests.post(
+                "http://127.0.0.1:5000/ask",
+                json={"query": user_question},
+                timeout=15
+            )
+
+            if response.status_code == 200:
+                reply = response.json().get("response", "No response from AI.")
+                st.success(reply)
+            else:
+                st.error(f"Error: {response.status_code} - {response.text}")
+        except Exception as e:
+            st.error(f"Failed to connect to AI server: {e}")
