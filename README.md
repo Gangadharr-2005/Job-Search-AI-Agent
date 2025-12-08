@@ -1,90 +1,177 @@
-💼 Job Search AI Agent
-🎯 Project Overview
+💼 Job Search AI Agent 🎯
 
-An intelligent AI-powered career assistant that helps job seekers search jobs, analyze resumes, match skills with job descriptions, and get AI-based career guidance.
-The system automates job discovery and provides personalized insights using real job data and resume parsing.
+(Track A – Essential | 8 Weeks Completed)
+
+An AI-powered career assistant that automates job searching, parses resumes, matches skills with job descriptions, ranks jobs by relevance, and provides AI-based career guidance.
+The system is designed around real-world HR-Tech workflows and the Indian job market.
+
+📌 Project Overview
+
+Job seekers often struggle with:
+
+Finding relevant job openings
+
+Understanding skill requirements
+
+Optimizing resumes for ATS systems
+
+The Job Search AI Agent solves these problems by combining:
+
+Job search automation
+
+Resume parsing & skill extraction
+
+AI-based job matching
+
+Career guidance insights
+
+This project follows the Job Search AI Agent Development Project – Dual Track Version and fully completes Track A (Essential) over 8 weeks.
+
+🎯 Domain Focus
+
+Career Development & Job Search Automation
 
 🧠 Objectives
 
-Simplify the job search process through automation
+Automate job discovery using job APIs
 
-Parse resumes and extract skills automatically
+Extract skills automatically from resumes
 
-Match user skills with real-world job openings
+Match user skills with job descriptions
 
-Rank jobs based on skill relevance
+Rank jobs using relevance scores
 
-Provide AI-based career guidance and insights
+Provide AI-powered career guidance
 
-🛠 Tech Stack
+Build an intuitive and deployable UI
 
-Frontend: Streamlit
-Backend: Python (Flask)
-AI: OpenAI API / LangChain
-Database: SQLite
-APIs: Adzuna Job Search API
-Version Control: Git & GitHub
+🛠 Tech Stack (Track A)
+Layer	Technology
+Frontend	Streamlit
+Backend	Python (Flask)
+AI / NLP	OpenAI API / LangChain
+Database	SQLite
+Job Search API	Adzuna Job Search API
+Resume Parsing	PyPDF2
+Version Control	Git & GitHub
+Deployment	Streamlit Cloud
+🧱 System Architecture
+User (Streamlit UI)
+   ↓
+Resume Upload (PDF)
+   ↓
+Resume Parsing & Skill Extraction
+   ↓
+Job Search (Adzuna API)
+   ↓
+Skill Matching & Relevance Scoring
+   ↓
+Ranked Job Results
+   ↓
+AI Career Guidance
+   ↓
+SQLite Database
 
-📅 Project Progress & Milestones
-✅ Week 1 – Planning & Foundation (Completed)
-Plan
+📅 8-Week Development Plan & Status
+✅ Week 1–2: Foundation & Quick Win (Completed)
 
-Finalize problem statement and objectives
+Goal:
+Get basic job search functionality working and deployed.
 
-Design system architecture and workflow
+Implemented:
 
-Set up GitHub repository and local development environment
+GitHub repository setup
 
-Research job APIs and resume parsing techniques
+Development environment (Python, Streamlit, Flask)
 
-Design UI wireframes
+Job search integration using Adzuna API
 
-Progress
+Job filtering by role and location
 
-✅ GitHub repository initialized
-✅ Project architecture designed
-✅ API research completed
-✅ Initial documentation added
+Basic Streamlit UI
 
-✅ Week 2 – Core Functionality (Completed)
-Implemented Features
+Deployment on Streamlit Cloud
 
-✅ Resume upload (PDF)
-✅ Resume parsing and skill extraction
-✅ Job search integration using Adzuna API
-✅ Display job listings with company, location, and description
-✅ Basic AI chatbot for career assistance
-✅ Streamlit UI with multiple tabs
+Demo video recorded
 
-Outcome
+✅ Mandatory Checkpoint – PASSED
 
-Users can upload resumes
+✅ Week 3–4: Core Career Agent Architecture (Completed)
 
-System extracts skills automatically
+Goal:
+Transform system into a multi-functional career assistant.
 
-Jobs are fetched dynamically based on role & location
+Implemented:
 
-✅ Week 3 – Intelligent Job Matching (Completed)
-Implemented Features
+Resume upload (PDF)
 
-✅ Skill-based job matching using resume skills
-✅ Match percentage calculation for each job
-✅ Display matched skills per job
-✅ Job ranking based on relevance score
-✅ Company information integration
-✅ Enhanced AI career assistant
-✅ End-to-end workflow:
+Resume parsing (text extraction)
 
-Resume Upload → Skill Extraction → Job Search → Skill Matching → Ranked Results
+Skill extraction from resumes
 
-Outcome
+Skill-based job matching
 
-System acts as a Smart Career Assistant
+Job ranking based on relevance score
 
-Users receive personalized, data-driven job recommendations
+Company information display
 
-Faculty-level industry-relevant implementation
+Unified job search workflow
 
+✅ Mandatory Checkpoint – PASSED
+
+✅ Week 5–6: Domain Specialization (Completed)
+
+Chosen Option: Option A2 – Resume Optimization Engine
+
+Implemented:
+
+ATS-friendly resume analysis
+
+Keyword gap analysis using job descriptions
+
+Skill gap identification
+
+AI-based resume improvement suggestions
+
+Career insights using LLM
+
+✅ Mandatory Checkpoint – PASSED
+
+✅ Week 7–8: Polish & Production (Completed)
+
+Goal:
+Production-ready career assistance application.
+
+Implemented:
+
+Professional Streamlit UI with tabs
+
+Job dashboard with ranking & match scores
+
+Resume analysis & feedback section
+
+Company insights display
+
+Job saving / tracking
+
+Input validation & error handling
+
+Comprehensive README
+
+Final demo video
+
+Stable deployment
+
+✅ Final Checkpoint – PASSED
+
+✅ Track Completion Summary
+Requirement	Status
+Track Selected	Track A – Essential ✅
+Total Duration	8 Weeks ✅
+Career Tools	Job Search + Resume Analysis ✅
+Database	SQLite ✅
+Deployment	Streamlit Cloud ✅
+Documentation	Complete ✅
 👥 Team – QuadCore
 
 Gangadhar R
@@ -95,19 +182,75 @@ Mallikarjunayya
 
 Gururaj
 
-🚀 Current Status
+🔍 Key Features
 
-✅ Week 1: Completed
-✅ Week 2: Completed
-✅ Week 3: Completed
-🟡 Week 4: Planned – Resume optimization, ATS scoring, and career insights
+📄 Resume upload & parsing
+
+🧠 Automatic skill extraction
+
+🔍 Real-time job search
+
+🎯 Skill-based job matching
+
+📊 Match percentage scoring
+
+🏢 Company information display
+
+🤖 AI-based career guidance
+
+💾 Job saving & tracking
+
+🔐 Ethical & Privacy Considerations
+
+No sensitive resume data shared externally
+
+API keys managed using environment variables
+
+Respectful API usage & rate limiting
+
+Transparent AI recommendations
+
+▶️ How to Run the Project
+# Clone repository
+git clone https://github.com/your-username/job-search-ai-agent.git
+cd job-search-ai-agent
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run backend
+python app.py
+
+# Run frontend
+streamlit run main.py
+
+📈 Assessment Readiness (Track A – 100 Points)
+
+Career Functionality ✅
+
+Job Matching Accuracy ✅
+
+UI / UX ✅
+
+Deployment ✅
+
+Documentation ✅
+
+Status: ✅ Submission-Ready & Viva-Ready
 
 📌 Future Enhancements
 
-ATS resume scoring and improvement suggestions
+ATS resume scoring (numerical)
 
-Cover letter generation
+AI cover letter generation
 
-Job application tracking
+Mock interview module
 
-Interview preparation module
+Job application reminders
+
+Salary benchmarking (Indian market)
+
+🏁 Conclusion
+
+The Job Search AI Agent successfully demonstrates how AI can automate job searching, resume analysis, and career guidance.
+By completing Track A over 8 weeks, the project achieves a production-ready HR-Tech solution suitable for academic evaluation and professional portfolios.
