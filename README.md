@@ -31,6 +31,7 @@ This project follows the Job Search AI Agent Development Project – Dual Track 
 
 Career Development & Job Search Automation
 
+
 🧠 Objectives
 
 Automate job discovery using job APIs
@@ -55,6 +56,7 @@ Job Search API	Adzuna Job Search API
 Resume Parsing	PyPDF2
 Version Control	Git & GitHub
 Deployment	Streamlit Cloud
+
 🧱 System Architecture
 User (Streamlit UI)
    ↓
@@ -73,6 +75,7 @@ AI Career Guidance
 SQLite Database
 
 📅 8-Week Development Plan & Status
+
 ✅ Week 1–2: Foundation & Quick Win (Completed)
 
 Goal:
@@ -95,6 +98,7 @@ Deployment on Streamlit Cloud
 Demo video recorded
 
 ✅ Mandatory Checkpoint – PASSED
+
 
 ✅ Week 3–4: Core Career Agent Architecture (Completed)
 
@@ -119,6 +123,7 @@ Unified job search workflow
 
 ✅ Mandatory Checkpoint – PASSED
 
+
 ✅ Week 5–6: Domain Specialization (Completed)
 
 Chosen Option: Option A2 – Resume Optimization Engine
@@ -136,6 +141,7 @@ AI-based resume improvement suggestions
 Career insights using LLM
 
 ✅ Mandatory Checkpoint – PASSED
+
 
 ✅ Week 7–8: Polish & Production (Completed)
 
@@ -163,6 +169,7 @@ Final demo video
 Stable deployment
 
 ✅ Final Checkpoint – PASSED
+
 
 ✅ Track Completion Summary
 Requirement	Status
