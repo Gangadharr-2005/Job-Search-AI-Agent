@@ -27,11 +27,11 @@ except Exception:
         return f"(LLM fallback) {prompt[:300]}"
 
 # CONFIG (use env vars in production)
-ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID", "7504a45c")
-ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY", "f49d92ef8008b320dfaf1ec446e2ae55")
+ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID", "your_id")
+ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY", "your_api")
 ADZUNA_URL = "https://api.adzuna.com/v1/api/jobs/in/search/{page}"
 
-JOOBLE_KEY = os.getenv("JOOBLE_KEY", "04b6671b-ad30-40a3-ad13-88b5b984d2df")
+JOOBLE_KEY = os.getenv("JOOBLE_KEY", "your_key")
 JOOBLE_URL = f"https://jooble.org/api/{JOOBLE_KEY}"
 
 REMOTIVE_URL = "https://remotive.com/api/remote-jobs"
